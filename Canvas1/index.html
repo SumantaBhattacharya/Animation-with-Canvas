@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <canvas id="canvas1"> 
+
+    </canvas>
+</body>
+<script src="script.js"></script>
+</html>
+
+<!-- canvas tag came with html5 to draw intractive graphics with javascript
+  by default canvas element is transparent -->
+
+<!--
+
+C:\Users\SUDIP BHATTACHARYA>wmic baseboard get product,Manufacturer,version,serialnumber
+Manufacturer           Product  SerialNumber     Version
+ASUSTeK COMPUTER INC.  H97M-E   150544390700217  Rev X.0x
+
+
+C:\Users\SUDIP BHATTACHARYA>wmic path win32_VideoController get name
+Name
+NVIDIA GeForce GT 610
+
+
+C:\Users\SUDIP BHATTACHARYA>wmic path win32_VideoController get /format:list
+
+
+AcceleratorCapabilities=
+AdapterCompatibility=NVIDIA
+AdapterDACType=Integrated RAMDAC
+AdapterRAM=2147483648
+Availability=3
+CapabilityDescriptions=
+Caption=NVIDIA GeForce GT 610
+ColorTableEntries=
+ConfigManagerErrorCode=0
+ConfigManagerUserConfig=FALSE
+CreationClassName=Win32_VideoController
+CurrentBitsPerPixel=32
+CurrentHorizontalResolution=1920
+CurrentNumberOfColors=4294967296
+CurrentNumberOfColumns=0
+CurrentNumberOfRows=0
+CurrentRefreshRate=60
+CurrentScanMode=4
+CurrentVerticalResolution=1080
+Description=NVIDIA GeForce GT 610
+DeviceID=VideoController1
+DeviceSpecificPens=
+DitherType=0
+DriverDate=20180323000000.000000-000
+DriverVersion=23.21.13.9135
+ErrorCleared=
+ErrorDescription=
+ICMIntent=
+ICMMethod=
+InfFilename=oem14.inf
+InfSection=Section002
+InstallDate=
+InstalledDisplayDrivers=C:\Windows\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_708ec8f9a4d134c6\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_708ec8f9a4d134c6\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_708ec8f9a4d134c6\nvldumdx.dll,C:\Windows\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_708ec8f9a4d134c6\nvldumdx.dll
+LastErrorCode=
+MaxMemorySupported=
+MaxNumberControlled=
+MaxRefreshRate=75
+MinRefreshRate=50
+Monochrome=FALSE
+Name=NVIDIA GeForce GT 610
+NumberOfColorPlanes=
+NumberOfVideoPages=
+PNPDeviceID=PCI\VEN_10DE&amp;DEV_104A&amp;SUBSYS_622219DA&amp;REV_A1\4&amp;3834D97&amp;0&amp;0008
+PowerManagementCapabilities=
+PowerManagementSupported=
+ProtocolSupported=
+ReservedSystemPaletteEntries=
+SpecificationVersion=
+Status=OK
+StatusInfo=
+SystemCreationClassName=Win32_ComputerSystem
+SystemName=DESKTOP-JPAMA9V
+SystemPaletteEntries=
+TimeOfLastReset=
+VideoArchitecture=5
+VideoMemoryType=2
+VideoMode=
+VideoModeDescription=1920 x 1080 x 4294967296 colors
+VideoProcessor=GeForce GT 610
+
+
+
+
+
+C:\Users\SUDIP BHATTACHARYA>wmic cpu get name
+Name
+Intel(R) Pentium(R) CPU G3258 @ 3.20GHz
+
+  wmic path Win32_VideoController get CurrentHorizontalResolution,CurrentVerticalResolution,CurrentRefreshRate
+  CurrentHorizontalResolution: 1920 pixels
+  CurrentVerticalResolution: 1080 pixels
+  CurrentRefreshRate: 60 Hz 
+  -->
